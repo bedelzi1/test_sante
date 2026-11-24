@@ -231,7 +231,8 @@ h2 em {
     inset: 0;
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
+    background-color: var(--green2);
 }
 
 .image-caption {
@@ -328,7 +329,8 @@ h2 em {
     width: 100%;
     height: 160px;
     margin-bottom: 20px;
-    object-fit: cover;
+    object-fit: contain;
+    background-color: var(--green2);
 }
 
 .number {
@@ -399,7 +401,8 @@ h2 em {
     display: block;
     width: 100%;
     height: 420px;
-    object-fit: cover;
+    object-fit: contain;
+    background-color: var(--green2);
 }
 
 .split-section p {
@@ -429,7 +432,8 @@ h2 em {
 .service-image {
     width: 100%;
     height: 220px;
-    object-fit: cover;
+    object-fit: contain;
+    background-color: var(--green2);
     display: block;
 }
 
@@ -467,7 +471,8 @@ h2 em {
 .team-photo {
     width: 100%;
     height: 270px;
-    object-fit: cover;
+    object-fit: contain;
+    background-color: var(--green2);
     display: block;
 }
 
@@ -742,26 +747,8 @@ h2 em {
         height: 330px;
     }
 
-    .hero-photo,
-    .editorial-image,
-    .service-image,
-    .team-photo {
-        object-fit: contain;
-    }
-
-    .hero-photo,
-    .service-image,
-    .team-photo {
-        background-color: var(--green2);
-    }
-
-    .editorial-image {
-        background-color: var(--green2);
-    }
-
     .feature-image {
         height: auto;
-        object-fit: contain;
     }
 
     .trust-strip {
